@@ -15,4 +15,4 @@ create_project_hash
 # image link: project.css("div.project-thumbnail a img").attribute("src").value
 # description: project.css("p.bbcard_blurb").text
 
-project.css("up.")
+project.css("up.project-meta").text
